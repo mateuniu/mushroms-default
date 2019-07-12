@@ -1,0 +1,25 @@
+// DURATION MANAGER FOR LOAD PAGE ANIMATIONS
+
+// the idea behind that file is trying to avoid running trought
+// many files in case you want to implement some changes into 
+// timelong loadpage animations (duration)
+
+// when page is loading some animations are appering 
+// they appering. i put them into the 4 priority-based groups
+
+// figure
+$group1: 1.2s;
+
+// name component and figcaption img header
+$group2: 1s;
+    // need to make animation for name .4s longer cause
+    // there are 3 headers for figcaption so i need to 
+    // assume that extra time for whole animations in that part
+    $group2name: 1.4s;
+
+// latin name and figcaption img
+$group3: .8s;
+
+// title, buton menu and side buttons
+$group4: 1.6s; 
+

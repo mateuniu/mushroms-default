@@ -1,0 +1,17 @@
+.button-color {
+  @extend %button-default;
+  @extend %button-sidebar-default;
+  left: 200px;
+    
+  @media screen and (min-width: $large){
+    left: 240px;
+  }
+  @media screen and (min-width: $huge){
+    left: 480px;
+  }
+}
+
+.showColour {
+  @extend %show-default;
+}
+  

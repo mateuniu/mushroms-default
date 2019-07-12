@@ -1,0 +1,13 @@
+// h2
+.header__name-latin__transition-enter-active {
+    @media screen and (min-width: $medium){
+    transition: all $group3 cubic-bezier(.28,.81,.61,.98);
+    transition-delay: $thirdPart;
+    }
+}
+.header__name-latin__transition-enter {
+    @media screen and (min-width: $medium){
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+}

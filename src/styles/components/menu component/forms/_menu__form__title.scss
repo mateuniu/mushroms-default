@@ -1,0 +1,20 @@
+.menu__form__title {
+    display: block;
+    float: left;
+    margin: 10px 6px;
+    padding: 5px 0 5px 10px;
+  
+    width: 80%;
+    height: 24px;
+  
+    font-family: $figcaption-header;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 500;
+  
+    color: #af6868;
+  
+    @media screen and (min-width: $huge){
+    font-size: 20px;
+    }
+  }

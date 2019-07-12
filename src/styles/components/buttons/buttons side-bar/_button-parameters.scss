@@ -1,0 +1,9 @@
+.button-parameters {
+  @extend %button-default;
+  @extend %button-sidebar-default;
+  float: right;
+}
+
+.showParameters {
+  @extend %show-default;
+}

@@ -1,0 +1,13 @@
+.title-component {
+    position: relative;
+    top: 26px;
+    width: 100%;
+    height: auto;
+    margin: 20px auto 40px auto;
+
+@media screen and (min-width: $medium){
+    top: 0;
+    height: auto;
+    margin: 0 auto;
+}
+}

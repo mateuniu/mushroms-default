@@ -1,0 +1,18 @@
+.menu__form__clear-button__span {
+    margin: 10px 6px;
+    padding: 6px 0;
+  
+    vertical-align: bottom;
+  
+    font-family: 'Patrick Hand', cursive;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: center;
+  
+    color: #925050;
+  
+    @media screen and (min-width: $huge){
+    font-size: 18px;
+    }
+  } 
+

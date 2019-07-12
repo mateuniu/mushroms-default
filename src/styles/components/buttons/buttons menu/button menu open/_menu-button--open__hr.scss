@@ -1,0 +1,13 @@
+.menu-button--open__hr {
+  @extend %hr-default;
+  position: relative;
+
+  width: 28px;
+  margin: 7px 0;
+
+  background-color: #4c5255;
+
+  @media screen and (min-width: $large){
+  background-color: #5491ad;
+  }
+}

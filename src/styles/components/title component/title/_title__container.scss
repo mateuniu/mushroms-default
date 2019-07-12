@@ -1,0 +1,19 @@
+.title__container {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  
+  border-radius: 100%;
+  background-color: #60a7c8;
+
+  box-shadow: $shadov-default;
+ 
+  @media screen and (min-width: $medium){
+    margin: 16px 16px 0 0;
+
+    width: 80px;
+    height: 80px;
+   
+    float: right;
+  }
+}

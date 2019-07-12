@@ -1,0 +1,14 @@
+.side-bar {
+  width: 300px;
+  height: auto;
+  margin: 14px auto 0 auto;
+@media screen and (min-width: $medium){
+  margin-left: 0;
+}
+@media screen and (min-width: $large){
+  width: 360px;
+}
+@media screen and (min-width: $huge){
+  width: 600px;
+}
+}

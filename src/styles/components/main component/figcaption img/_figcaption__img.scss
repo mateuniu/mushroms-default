@@ -1,0 +1,21 @@
+.figcaption__img {
+  width: 88%;
+  height: auto;
+
+  margin: 2px auto 0 auto;
+  padding: 1px 2px;
+
+  font-family: $figcaption;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.2;
+
+  color: #928787;
+
+  @media screen and (min-width: $medium){
+    font-size: 12px;
+  }
+  @media screen and (min-width: $huge){
+    font-size: 14px;
+  }
+}

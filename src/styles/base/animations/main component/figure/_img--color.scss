@@ -1,0 +1,11 @@
+.img--color-enter-active {
+    transition: .2s ease-in;
+}
+
+.img--color-leave-active {
+    transition: .2s ease-out;
+}
+
+.img--color-enter, .img--color-leave-to {
+    opacity: 0;
+}

@@ -1,0 +1,30 @@
+// TIMESPACE MANAGER FOR LOAD PAGE ANIMATIONS
+
+// the idea behind that file is trying to avoid running trought
+// many files in case you want to implement some changes into 
+// timespaces between loadpage animations (delays)
+
+// when page is loading some animations are appering 
+// they appering in 4 main steps and 1 smaller step (4 1/2)
+// 1st figure
+// 2st. name component and figcaption img header
+// 3rd. latin name, figcaption img and side button color
+// 4th. instagram and button menu
+// 4 1/2. title icon and side button description
+
+// 1st 
+$firstPart: .4s;
+// 2nd
+$secondPart: 1.2s;
+    // cap 
+    $secondPartCap: 1.2s;
+    // plaque
+    $secondPartPlaque: 1.4s;
+    // leg
+    $secondPartLeg: 1.6s;
+// 3rd
+$thirdPart: 2.2s;
+// 4th
+$fourthPart: 3s;
+// 4 1/2
+$fourthAndHalf: 3.1s; 

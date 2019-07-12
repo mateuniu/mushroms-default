@@ -1,0 +1,22 @@
+.figcaption__parameter {
+  width: 90px;
+  height: 140px;
+
+  margin: auto;
+  padding: 2px;
+
+  background-color: inherit;
+  
+@media screen and (min-width: $large){
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+
+  height: 110px;
+
+  margin-top: 10px;
+}
+@media screen and (min-width: $huge){
+  margin: 30px 10px;
+}
+}

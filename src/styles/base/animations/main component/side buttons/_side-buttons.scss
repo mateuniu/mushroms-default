@@ -1,0 +1,21 @@
+// button parameters //
+.button-parameters-enter-active {
+  transition: all 0.8s ease;
+  transition-delay: $fourthAndHalf;
+}
+.button-parameters-enter {
+  @media screen and (min-width: $medium){
+    opacity: 0;
+  }
+}
+
+// button color //
+.button-color-enter-active {
+  transition: all 0.8s ease;
+  transition-delay: $fourthPart;
+}
+.button-color-enter {
+  @media screen and (min-width: $medium){
+    opacity: 0;
+  }
+}

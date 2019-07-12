@@ -1,0 +1,16 @@
+.menu {
+  position: fixed;
+  margin: 0;
+
+  width: 170px;
+  height: 100%;
+
+  border-right: 1px solid #c7d1d3;
+
+  top: 0;
+  bottom: 10px;
+  left: 0;
+  background-color: white;
+  overflow-y: auto;
+  z-index: 10;
+}

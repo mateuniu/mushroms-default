@@ -1,0 +1,26 @@
+.figcaption__parameters__container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  position: relative;
+  bottom: 150px;
+
+  background-color: inherit;
+
+  @media screen and (min-width: $medium){
+    margin-left: 0;
+}
+  @media screen and (min-width: $large){
+    display: inline-block;
+    width: 100px;
+    height: 370px;
+    bottom: 376px;
+    margin-left: 390px;
+    z-index: -100;
+}
+  @media screen and (min-width: $huge){
+    height: auto;
+    bottom: 526px;
+
+    margin-left: 610px;
+  }
+}

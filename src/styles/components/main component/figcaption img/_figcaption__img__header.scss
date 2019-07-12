@@ -1,0 +1,18 @@
+.figcaption__img__header {
+  margin: 2px 0;
+  padding: 0 2px;
+
+  font-family: $figcaption-header;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 500;
+
+  color: #925050;
+
+  @media screen and (min-width: $large){
+    font-size: 16px;
+  }
+  @media screen and (min-width: $huge){
+    font-size: 20px;
+  }
+}

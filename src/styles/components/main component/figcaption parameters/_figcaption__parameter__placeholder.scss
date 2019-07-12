@@ -1,0 +1,11 @@
+.figcaption__parameters__placeholder {
+    position: relative;
+    height: 0;
+    width: 320px;
+    
+    margin: 0 auto;
+    
+    @media screen and (min-width: $medium){
+      margin-left: 0;
+  }
+  }

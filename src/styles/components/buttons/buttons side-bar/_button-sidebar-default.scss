@@ -1,0 +1,16 @@
+%button-sidebar-default {
+    width: 40px;
+    height: 40px;
+    
+    border: $border-default; // u can find it in utilities/variables.scss
+    border-radius: 100%;
+    box-shadow: $shadov-default; // u can find it in utilities/variables.scss
+
+    background-color: white;
+}
+
+%show-default {
+    transition: 1s;
+    border-color:  #d89a87;
+    background-color: #e7a490;
+}

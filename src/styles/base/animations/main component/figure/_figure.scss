@@ -1,0 +1,12 @@
+.figure-enter-active {
+    @media screen and (min-width: $medium){
+        transition: all $group1 ease;
+        transition-delay: $firstPart;
+    }
+}
+
+.figure-enter {
+    @media screen and (min-width: $medium){
+        opacity: 0;
+    }
+}

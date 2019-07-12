@@ -1,0 +1,38 @@
+%transition-figcaption-header {
+    @media screen and (min-width: $medium){
+      transition: $group2 cubic-bezier(.16,.64,.42,1);
+    }
+  }
+  %transform-figcaption-header {
+    @media screen and (min-width: $medium){
+      transform: translateX(200px);
+      opacity: 0;
+    }
+  }
+  
+  //cap
+  .figcaption-header-cap-enter-active {
+      @extend %transition-figcaption-header;
+      transition-delay: $secondPartCap;
+    }
+  .figcaption-header-cap-enter {
+    
+      @extend %transform-figcaption-header;
+    }
+  //plaque
+    .figcaption-header-plaque-enter-active {
+      @extend %transition-figcaption-header;
+      transition-delay: $secondPartPlaque;
+    }
+  .figcaption-header-plaque-enter {
+      @extend %transform-figcaption-header;
+    } 
+  //leg
+    .figcaption-header-leg-enter-active {
+      @extend %transition-figcaption-header;
+      transition-delay: $secondPartLeg;
+    }
+  .figcaption-header-leg-enter {
+      @extend %transform-figcaption-header;
+    }
+  

@@ -1,0 +1,23 @@
+.article {
+  position: relative;
+  margin: auto;
+ 
+  @media screen and (min-width: $medium){
+    display: grid;
+    grid-template-columns: auto auto;
+
+    margin: 30px auto 0 auto;
+    top: -50px;
+    width: 750px;
+  }
+  @media screen and (min-width: $large){
+    grid-template-columns: 38%  auto;
+    width: 940px;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: $huge){
+    grid-template-columns: auto 854px;
+    width: 1440px;
+    height: auto;
+  }
+}

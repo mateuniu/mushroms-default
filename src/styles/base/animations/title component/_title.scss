@@ -1,0 +1,12 @@
+.title-enter-active {
+    @media screen and (min-width: $medium){
+        transition: 1.2s ease;
+        transition-delay: $fourthAndHalf;
+    }
+}
+
+.title-enter {
+    @media screen and (min-width: $medium){
+        opacity: 0;
+    }
+}

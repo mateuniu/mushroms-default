@@ -1,0 +1,125 @@
+@import
+// UTILITIES //
+  'utilities/viariables',
+  'utilities/placeholders';
+
+@import
+// BASE //
+  'base/base',
+
+// ANIMATIONS //
+
+// load page animations
+  'base/animations/load page manager/delay',
+  'base/animations/load page manager/duration',
+
+// title component //
+  'base/animations/title component/title',
+  'base/animations/title component/instagram-icon',
+
+// navigation component // 
+  'base/animations/navigation component/bluring',
+  'base/animations/navigation component/menu',
+  'base/animations/navigation component/menu__button',
+
+// main component //
+// figcaption img
+  'base/animations/main component/figcaption img/figcaption-img__header',
+  'base/animations/main component/figcaption img/figcaption-img',
+
+// figcaption parameters
+  'base/animations/main component/figcaption parameters/figcaption__parameters',
+  'base/animations/main component/figcaption parameters/figcaption__parameters__container',
+
+// figure
+  'base/animations/main component/figure/figure',
+  'base/animations/main component/figure/img--color',
+
+// header
+  'base/animations/main component/header/header',
+  'base/animations/main component/header/header__latin',
+
+// side buttons
+  'base/animations/main component/side buttons/side-buttons';
+
+@import
+// LAYOUT //
+// main // 
+  'layout/main/article/article',
+  'layout/main/article/article__sections',
+  'layout/main/article/article__separating-hr',
+
+  'layout/main/side bar/side-bar',
+
+// navigation // 
+  'layout/navigation/nav-bar',
+
+// title // 
+  'layout/title/title-component';
+
+@import
+// COMPONENTS // 
+// buttons //
+  'components/buttons/button-default',
+
+// buttons menu  
+// - button menu open
+  'components/buttons/buttons menu/button menu open/button-menu-open',
+  'components/buttons/buttons menu/button menu open/menu-button--open__hr',
+
+// - button menu clear 
+  'components/buttons/buttons menu/button menu clear/button-menu-clear',
+  'components/buttons/buttons menu/button menu clear/menu__form__clear-button__span',
+
+// buttons sidebar
+  'components/buttons/buttons side-bar/button__img', 
+  'components/buttons/buttons side-bar/button-color',
+  'components/buttons/buttons side-bar/button-parameters',
+  'components/buttons/buttons side-bar/button-sidebar-default',
+
+// main component //
+// figcaption img
+  'components/main component/figcaption img/figcaption__img__container',
+  'components/main component/figcaption img/figcaption__img__header',
+  'components/main component/figcaption img/figcaption__img',
+
+// figcaption parameters
+// - parameter
+  'components/main component/figcaption parameters/figcaption__parameter__placeholder',
+  'components/main component/figcaption parameters/figcaption__parameter__container',
+  'components/main component/figcaption parameters/figcaption__parameter',
+
+// - icon
+  'components/main component/figcaption parameters/icon/figcaption__parameter__icon-container',
+  'components/main component/figcaption parameters/icon/figcaption__parameter__icon',
+
+// - description
+  'components/main component/figcaption parameters/description/figcaption__parameter__description',
+
+// figure
+  'components/main component/figure/figure',
+  'components/main component/figure/figure__img',
+
+// header 
+  'components/main component/header/header',
+  'components/main component/header/header__name-latin',
+  'components/main component/header/header__name',
+
+// title component // 
+// instagram
+  'components/title component/instagram/icon-instagram',
+  'components/title component/instagram/icon-instagram__container',
+  'components/title component/instagram/instagram-link',
+
+// title
+  'components/title component/title/title',
+  'components/title component/title/title__container',
+
+// menu component //
+  'components/menu component/forms/form',
+  'components/menu component/forms/menu__form__label',
+  'components/menu component/forms/menu__form__section',
+  'components/menu component/forms/menu__form__title',
+  'components/menu component/forms/menu_form__input',
+  'components/menu component/blur',
+  'components/menu component/menu';

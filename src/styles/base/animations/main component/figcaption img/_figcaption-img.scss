@@ -1,0 +1,12 @@
+.figcaption-description-enter-active {
+  @media screen and (min-width: $medium){
+    transition: $group3 cubic-bezier(.28,.81,.61,.98);
+    transition-delay: $thirdPart;
+  }
+}
+.figcaption-description-enter {
+  @media screen and (min-width: $medium){
+    opacity: 0;
+    transform: translateX(10px);
+  }
+}

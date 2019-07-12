@@ -1,0 +1,12 @@
+.menu-button-transition-enter-active {
+    @media screen and (min-width: $medium){
+        transition: 1.2s ease;
+        transition-delay: $fourthPart;
+    }
+}
+
+.menu-button-transition-enter {
+    @media screen and (min-width: $medium){
+        opacity: 0;
+    }
+}

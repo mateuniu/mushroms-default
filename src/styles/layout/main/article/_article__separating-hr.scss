@@ -1,0 +1,17 @@
+.article__separating-hr {
+    @extend %hr-default;
+    top: 10px;
+    width: 90%;
+
+    background-color: #d1cece;
+
+    @media screen and (min-width: $medium){
+        top: -16px;
+    }
+    @media screen and (min-width: $large){
+        top: -30px;
+    }
+    @media screen and (min-width: $huge){
+        top: -110px; 
+    }
+}

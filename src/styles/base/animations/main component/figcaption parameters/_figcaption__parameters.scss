@@ -1,0 +1,48 @@
+/*ANIMATION FOR PARAMATERS */
+  $parameter-transition: 0.9s ease;
+
+  %parameter-transform {
+    transform: translateY(50px);
+    opacity: 0;
+    
+    @media screen and (min-width: $large){
+    transform: translateX(-230px);
+    opacity: 1;
+    }
+  }
+/* TIME */
+.figcaption__parameter__time-enter-active, 
+.figcaption__parameter__time-leave-active {
+  transition: $parameter-transition;
+}
+
+.figcaption__parameter__time-enter, 
+.figcaption__parameter__time-leave-to {
+  @extend %parameter-transform;
+}
+
+/* PLACE */
+.figcaption__parameter__place-enter-active {
+  transition: $parameter-transition;
+  transition-delay: 0.16s;
+}
+.figcaption__parameter__place-leave-active {
+  transition: $parameter-transition;
+}
+.figcaption__parameter__place-enter, 
+.figcaption__parameter__place-leave-to {
+  @extend %parameter-transform;
+}
+
+/* MUNCHIE */
+.figcaption__parameter__munchie-enter-active {
+  transition: $parameter-transition;
+  transition-delay: 0.32s;
+}
+.figcaption__parameter__munchie-leave-active {
+  transition: $parameter-transition;
+}
+.figcaption__parameter__munchie-enter, 
+.figcaption__parameter__munchie-leave-to {
+  @extend %parameter-transform;
+}

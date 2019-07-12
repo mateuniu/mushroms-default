@@ -1,0 +1,9 @@
+.menu__form__input {
+    display: none;
+  }
+  .menu__form__input:checked + label {
+    color: #444343;
+    background-color: #cbeccf;
+    transition: .6s ease;
+    width: auto;
+  }

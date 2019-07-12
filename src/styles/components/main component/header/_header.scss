@@ -1,0 +1,22 @@
+.header {
+  position: relative;
+  height: 110px;
+  width: 100%;
+  margin: 12px auto;
+
+  @media screen and (min-width: $medium){
+    margin: 6px auto 16px auto;
+    padding-right: 10px;
+    border: 0;
+    background-color: inherit;
+  }
+  @media screen and (min-width: $large){
+    height: auto;
+    margin: 6x 0 1px auto;
+  }
+  @media screen and (min-width: $huge){
+    margin: 10px auto 0 auto;
+    right: 56px;
+    float: right;
+  }
+}

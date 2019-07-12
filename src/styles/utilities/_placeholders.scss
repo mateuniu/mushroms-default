@@ -1,0 +1,12 @@
+// hr
+
+%hr-default {
+  position: relative;
+
+  height: 1px;
+  border: none;
+  
+  @media screen and (min-width: $large){
+    height: 2px;
+  }
+}

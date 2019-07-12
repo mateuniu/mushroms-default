@@ -1,0 +1,21 @@
+.icon-instagram__container {
+    display: flex;
+
+    width: 28px;
+    height: 28px;
+    margin: 14px auto 24px auto;
+
+    border: $border-default;
+    border-radius: 100%;
+    box-shadow: $shadov-default;
+
+    justify-content: center;
+
+    background-color: white;
+    @media screen and (min-width: $medium){
+        position: relative;
+        bottom: 50px;
+        float: right;
+        margin: 0 110px;
+    }
+}

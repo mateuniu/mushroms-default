@@ -1,0 +1,24 @@
+.menu__form__label {
+    display: block;
+    margin: 1px 0;
+    padding: 3px 8px;
+  
+    width: auto;
+  
+    border-radius: 6px;
+    font-family: $figcaption;
+    font-size: 12px;
+    font-weight: 400;
+  
+    color: #928787;
+    cursor: pointer;
+    @media screen and (min-width: $huge){
+      font-size: 14px;
+    }
+    
+  }
+  .menu__form__label:hover {
+    background-color: #e8e9e8;
+    border-color: #c9d1c9;
+    transition: background-color .2s;
+  }

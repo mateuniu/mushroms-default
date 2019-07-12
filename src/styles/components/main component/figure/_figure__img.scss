@@ -1,0 +1,33 @@
+%img {
+  position: relative;
+  margin: 29px;
+
+  width: 250px;
+  height: 250px;
+
+@media screen and (min-width: $large){
+  width: 320px;
+  height: 320px;
+}
+@media screen and (min-width: $huge){
+  width: 510px;
+  height: 510px;
+
+  margin: 44px 44px;
+  }
+}
+
+.figure__img--plain {
+  @extend %img;
+}
+.figure__img--color {
+  @extend %img;
+  bottom: 313px;
+
+@media screen and (min-width: $large){
+  bottom: 384px;
+}
+@media screen and (min-width: $huge){
+  bottom: 605px;
+}
+}

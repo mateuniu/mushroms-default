@@ -1,0 +1,21 @@
+.menu__form__clear-button {
+  @extend %button-default;
+
+  width: auto;
+  height: auto;
+ 
+  top: 14px;
+
+  margin: auto;
+  padding: 6px;
+
+  border: solid 2px #ce7e7e;;
+  border-radius: 6px;
+
+  background-color: inherit;
+}
+
+.menu__form__clear-button:hover {
+  background-color: #ffe1e1;
+  transition: background-color 0.2s ease;
+}
